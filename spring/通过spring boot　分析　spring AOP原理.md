@@ -4,15 +4,15 @@
 
 #### spring aop 启动类入口
 
-![Snipaste_2021-04-12_15-59-40](D:\code\code-source-reader\spring\img\Snipaste_2021-04-12_15-59-40.png)
+![Snipaste_2021-04-12_15-59-40](/spring/img/Snipaste_2021-04-12_15-59-40.png)
 
 #### 启动类入口分析
 
-![aop-01](D:\code\code-source-reader\spring\img\aop-01.png)
+![aop-01](/spring/img/aop-01.png)
 
 #### AopConfigUtils.registerAutoProxyCreatorIfNecessary(registry) 代码跟踪，引入了主要类**InfrastructureAdvisorAutoProxyCreator** ，这个类实现了2个和bean 生命周期相关的2 个接口
 
-![Snipaste_2021-04-12_16-17-53](D:\code\code-source-reader\spring\img\Snipaste_2021-04-12_16-17-53.png)
+![Snipaste_2021-04-12_16-17-53](/spring/img/Snipaste_2021-04-12_16-17-53.png)
 
 
 
@@ -81,7 +81,7 @@
 
 #### 继续跟进InfrastructureAdvisorAutoProxyCreator 
 
-![Snipaste_2021-04-12_16-29-49](D:\code\code-source-reader\spring\img\Snipaste_2021-04-12_16-29-49.png)
+![Snipaste_2021-04-12_16-29-49](/spring/img/Snipaste_2021-04-12_16-29-49.png)
 
 ```java
 @Override
@@ -138,11 +138,11 @@ protected boolean isInfrastructureClass(Class<?> beanClass) {
 
 #### createProxy() 继续跟进
 
-![Snipaste_2021-04-12_16-37-57](D:\code\code-source-reader\spring\img\Snipaste_2021-04-12_16-37-57.png)
+![Snipaste_2021-04-12_16-37-57](/spring/img/Snipaste_2021-04-12_16-37-57.png)
 
 
 
-![Snipaste_2021-04-12_16-38-54](D:\code\code-source-reader\spring\img\Snipaste_2021-04-12_16-38-54.png)
+![Snipaste_2021-04-12_16-38-54](/spring/img/Snipaste_2021-04-12_16-38-54.png)
 
 
 
