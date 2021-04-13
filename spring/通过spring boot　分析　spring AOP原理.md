@@ -4,7 +4,7 @@
 
 #### spring aop 启动类入口
 
-![Snipaste_2021-04-12_15-59-40](/spring/img/Snipaste_2021-04-12_15-59-40.png)
+![Snipaste_2021-04-12_15-59-40](../spring/img/Snipaste_2021-04-12_15-59-40.png)
 
 #### 启动类入口分析
 
